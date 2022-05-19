@@ -1,0 +1,45 @@
+.logo-durham {
+    font-family: 'arcade-classic', Arial, sans-serif;
+    background-color: white;
+    color: black;
+    word-spacing: 10px;
+    text-align: center;
+}
+
+.logo-durham:hover {
+    -webkit-animation: rainbow-font 3s ease-in-out infinite;
+    -z-animation: rainbow-font 3s ease-in-out infinite;
+    -o-animation: rainbow-font 3s ease-in-out infinite;
+    animation: rainbow-font 3s linear infinite;
+}
+
+@-webkit-keyframes rainbow-font {
+    0%,
+    100% {
+        color: #ff2400;
+    }
+    11% {
+        color: #e81d1d;
+    }
+    22% {
+        color: #e8b71d;
+    }
+    33% {
+        color: #e3e81d;
+    }
+    44% {
+        color: #1de840;
+    }
+    55% {
+        color: #1ddde8;
+    }
+    66% {
+        color: #2b1de8;
+    }
+    77% {
+        color: #dd00f3;
+    }
+    88% {
+        color: #dd00f3;
+    }
+}
